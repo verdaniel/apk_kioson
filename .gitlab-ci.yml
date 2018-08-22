@@ -1,0 +1,18 @@
+stages:
+  - build
+
+build:
+  stage: build
+  only:
+    - development
+    - master
+  script:
+    - yarn install
+    # Use --stacktrace for debug output
+    - cd android && ./gradlew assembleDebug --stacktrace
+  cache:
+    paths:
+     - node_modules/
+  artifacts:
+    paths:
+      - android/app/build/outputs/apk/app-debug.apk

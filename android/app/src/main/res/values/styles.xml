@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme_Light.Default">
+        <item name="gallery_color_statusbar">#f7981d</item>
+        <item name="gallery_page_bg">#FFFFFF</item>
+        <item name="gallery_toolbar_close_color">#FFFFFF</item>
+        <item name="gallery_toolbar_widget_color">#f7981d</item>
+        <item name="gallery_toolbar_divider_bg">#f7981d</item>
+        <item name="gallery_toolbar_bg">#f7981d</item>
+        <item name="gallery_toolbar_text_gravity">center</item>
+        <item name="gallery_toolbar_text_color">#fff</item>
+        <item name="gallery_checkbox_button_tint_color">#f7981d</item>
+        <item name="gallery_checkbox_text_color">#f7981d</item>
+   </style>
+
+   <style name="gallery_checkBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+       <item name="android:scaleX">1.5</item>
+       <item name="android:scaleY">1.5</item>
+   </style>
+</resources>
